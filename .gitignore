@@ -7,3 +7,4 @@ build
 nodejs_training.iml
 notes_app.iml
 *.iml
+node_modules
