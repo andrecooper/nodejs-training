@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather app</title>
+
+	<link rel="icon" href="/img/icon_1.png">
+	<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+{{>header}}
+<h1>
+	Hello {{name}}! this is index.hbs file
+</h1>
+
+<form>
+	<input placeholder="location">
+	<button>Search</button>
+</form>
+
+<p id="message-1"></p>
+<p id="message-2"></p>
+{{>footer}}
+
+<script src="/js/app.js"></script>
+</body>
+</html>
